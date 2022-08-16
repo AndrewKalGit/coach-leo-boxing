@@ -3,7 +3,7 @@ import React from 'react';
 function Fighters(props) {
     return (
 <section class="bg-gray-100">
-<h1 class='flex justify-center text-2xl font-bold text-blue-500 sm:text-4xl items-center -mb-20 h-20'> Meet the Family </h1>
+<h1 class='flex justify-center text-2xl font-bold text-black sm:text-4xl items-center -mb-20 h-20'> Meet the Family </h1>
 <div class="px-4 py-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-3">
      <blockquote class="flex flex-col justify-between h-full p-12 bg-white">

@@ -49,11 +49,11 @@ function Footer(props) {
             </Link>
           </li>
 
-          <li>
+          {/* <li>
             <Link to="FAQ" class="text-gray-700 transition hover:text-gray-700/75" href="/">
               FAQ
             </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>

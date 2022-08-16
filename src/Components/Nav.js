@@ -20,7 +20,7 @@ function Nav(props) {
         <Link class="text-gray-500 hover:text-black" to="/">Home</Link>
         <Link class="text-gray-500 hover:text-black" to="/about">About</Link>
         <Link class="text-gray-500 hover:text-black" to="/fighters">Fighters</Link>
-        <Link class="text-gray-500 hover:text-black" to="/FAQ">FAQ</Link>
+        {/* <Link class="text-gray-500 hover:text-black" to="/FAQ">FAQ</Link> */}
       </nav>
 
       <div class="items-center justify-end flex-1 hidden space-x-4 sm:flex">

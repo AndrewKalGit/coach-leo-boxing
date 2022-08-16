@@ -1,6 +1,6 @@
 import React from 'react';
 
-//To Do: Make Years of Coaching a Dynamic number that updates on its own 
+//To Do: Make Years of Coaching a Dynamic number that counts up at start of screen
 
 function Stats(props) {
     return (
@@ -40,7 +40,7 @@ function Stats(props) {
             Years of coaching 
           </dt>
 
-          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">15</dd>
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">15+</dd>
         </div>
 
         <div
