@@ -13,9 +13,7 @@ function Stats(props) {
       </h2>
 
       <p class="mt-4 text-gray-500 sm:text-xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores
-        laborum labore provident impedit esse recusandae facere libero harum
-        sequi.
+        Coach Leo offers a wide variety of experience to bring to the table. More importantly his abiltiy to connect to his fighters and ability to hold his fighters accountable makes him a great coach. Above all his respect and eagerness to see you succeed in training or competition makes him a valuable asset to the world of Boxing.
       </p>
     </div>
 

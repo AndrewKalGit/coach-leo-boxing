@@ -23,7 +23,7 @@ function Nav(props) {
         {/* <Link class="text-gray-500 hover:text-black" to="/FAQ">FAQ</Link> */}
       </nav>
 
-      <div class="items-center justify-end flex-1 hidden space-x-4 sm:flex">
+      <div class="items-center sm:justify-end flex justify-center space-x-4 sm:flex">
         <Link 
           class="px-5 py-2 text-sm font-medium text-blue-400 hover:text-white bg-gray-100 hover:bg-blue-400 rounded-lg"
           to="signup"
