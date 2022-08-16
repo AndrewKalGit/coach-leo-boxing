@@ -1,6 +1,6 @@
 import React from 'react';
 
-//To Do:
+//To Do: Make it functional and send email with Twilio API
 
 
 function SignUp(props) {
