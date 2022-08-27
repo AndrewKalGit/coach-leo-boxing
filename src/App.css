@@ -84,6 +84,10 @@ html {
 }
 
 @media screen and (min-width: 640px) {
+    .Hamburger-Menuunclicked {
+        display: none;
+    }
+
     .Nav-HamburgerContentshow {
         display: none;
     }
