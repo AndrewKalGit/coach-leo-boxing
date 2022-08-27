@@ -1,8 +1,7 @@
 import React from 'react';
-import data from '../data.js';
-import { Link } from  'react-router-dom'
+import data from '../data'
 
-function SignUp(props) {
+function SignUpHolder(props) {
     return (
 <div>
 <section class="bg-gray-700">
@@ -126,30 +125,16 @@ function SignUp(props) {
           </h1>
 
           <div class="mt-4">
-            <Link
-              to="signupcomplete"
-              class="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-red-400 rounded-lg sm:w-auto hover:bg-red-700"
-            >
-              <span class="font-medium"> Send Inquiry </span>
-
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-5 h-5 ml-3"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </Link>
+            <h1 class="text-black text-4xl font-extrabold">Form Sent. 
+            <br></br>Complete payment in person</h1>
           </div>
         </form>
       </div>
     </div>
   </div>
 </section>
-        </div>
+</div>
     );
 }
 
-export default SignUp;
+export default SignUpHolder;

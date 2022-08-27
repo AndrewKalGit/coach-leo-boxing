@@ -10,6 +10,7 @@ import Review from './Components/Review';
 import SignUp from './Components/SignUp';
 import Coaches from './Components/Coaches';
 import FAQ  from './Components/FAQ';
+import SignUpHolder from './Components/SignUpHolder';
 
 //To Do: Landing Page with fade in and click anywhere to go to web site with changing text 
 //To Do: Get image and people for the boxing website Fighters Tab
@@ -27,6 +28,7 @@ function App() {
             <Route path='/coaches' element={<Coaches/>}></Route>
             <Route path='/signup' element={<SignUp/>}></Route>
             <Route path='/FAQ' element={<FAQ/>}></Route> 
+            <Route path='/signup/signupcomplete' element={<SignUpHolder></SignUpHolder>}></Route>
           </Routes>
         <Footer></Footer>
       </BrowserRouter>
