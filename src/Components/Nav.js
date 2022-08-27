@@ -15,8 +15,8 @@ const close = () => {
 }
 
   return (
-  <div class="bg-gray-900">
-            <header class="shadow-sm">
+<div class="bg-gray-900">
+<header class="shadow-sm">
   <div class="max-w-screen-4xl p-4 mx-auto">
     <div class="flex items-center justify-between space-x-4 lg:space-x-10">
       <div class="flex lg:w-0 lg:flex-1">
