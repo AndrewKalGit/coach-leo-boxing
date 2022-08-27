@@ -118,7 +118,7 @@ function SignUpHolder(props) {
               id="message"
             ></textarea>
           </div>
-          
+             <h1> Please show proof of vaccination in person </h1>
              <h1>
             <span class='mr-4'>Covid Vaccinated: <input class="rounded-sm" type="checkbox"></input></span>
             Booster: <input class="rounded-sm" type="checkbox"></input>
