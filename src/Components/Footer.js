@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import Logo from './ImgFolder/LOGO.png'
+import Logo from './ImgFolder/LeoGBoxingLogo.png'
 
 
 function Footer(props) {
     return (
         <div>
-            <footer class="bg-gray-900">
+            <footer class="bg-gray-200">
   <div
     class="relative max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 lg:pt-24"
   >
@@ -14,16 +14,18 @@ function Footer(props) {
     <div class="lg:flex lg:items-end lg:justify-between">
       <div>
         <div class="flex justify-center lg:justify-start">
+          <img src={Logo} alt="Logo"/>
+
         <p
-          class="max-w-xl mx-auto leading-relaxed text-center text-gray-500 lg:text-left text-xs"
+          class="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-500 lg:text-left"
         >
-          <h1 class="font-bold">Privacy Policy</h1>
-This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+          consequuntur amet culpa cum itaque neque.
         </p>
         </div>
       </div>
 
-      <nav class="mt-8 lg:mt-0" aria-labelledby="footer-navigation">
+      <nav class="mt-12 lg:mt-0" aria-labelledby="footer-navigation">
         <h2 class="sr-only" id="footer-navigation">Footer navigation</h2>
 
         <ul
@@ -42,8 +44,8 @@ This Privacy Policy describes Our policies and procedures on the collection, use
           </li>
 
           <li>
-            <Link to="FAQ" class="text-gray-700 transition hover:text-gray-700/75" href="/">
-              FAQ
+            <Link to="fighters" class="text-gray-700 transition hover:text-gray-700/75" href="/">
+              Fighters
             </Link>
           </li>
 
@@ -56,7 +58,7 @@ This Privacy Policy describes Our policies and procedures on the collection, use
       </nav>
     </div>
 
-    <p class="mt-4 text-sm text-center text-gray-400 lg:text-right">
+    <p class="mt-12 text-sm text-center text-gray-400 lg:text-right">
       Copyright &copy; 2022. All rights reserved.
     </p>
   </div>

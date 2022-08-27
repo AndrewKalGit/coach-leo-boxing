@@ -1,10 +1,6 @@
-html {
-    background: rgb(17 24 39);
-}
-
 .Demo-bgImg {
     overflow: hidden;
-    background: url('./Components//ImgFolder/walkingToRing.jpg') no-repeat;
+    background: url('./Components//ImgFolder/walkingToRing.jpg') center center no-repeat;
     background-size: cover;
 }
 
