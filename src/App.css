@@ -1,6 +1,10 @@
+html {
+    background: rgb(17 24 39);
+}
+
 .Demo-bgImg {
     overflow: hidden;
-    background: url('./Components//ImgFolder/walkingToRing.jpg') center center no-repeat;
+    background: url('./Components//ImgFolder/walkingToRing.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -80,6 +84,10 @@
 }
 
 @media screen and (min-width: 640px) {
+    .Hamburger-Menuunclicked {
+        display: none;
+    }
+
     .Nav-HamburgerContentshow {
         display: none;
     }
