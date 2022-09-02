@@ -27,7 +27,7 @@ const close = () => {
       <nav class="hidden space-x-8 text-sm font-medium sm:flex">
         <Link class="text-gray-300 hover:text-white" to="/">Home</Link>
         <Link class="text-gray-300 hover:text-white" to="/about">About</Link>
-        <Link class="text-gray-300 hover:text-white" to="/coaches">Coaches</Link>
+        {/* <Link class="text-gray-300 hover:text-white" to="/coaches">Coaches</Link> */}
         {/* <Link class="text-gray-500 hover:text-black" to="/FAQ">FAQ</Link> */}
       </nav>
 
