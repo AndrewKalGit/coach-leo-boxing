@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Demo(props) {
   
-  const headingStatement = ['Confident', 'Courageous', 'Consistent', 'a Champion']
+  const headingStatement = ['Confident', 'Courageous', 'Consistent', 'A Champion']
 
   const [index, setIndex] = useState(0)
 
@@ -24,7 +24,7 @@ return (
   <div class="p-8 md:p-12 lg:px-16 lg:py-24 bg-red-700/20">
     <div class="text-center sm:text-left">
       <h2 class="p-2 text-2xl font-bold text-white sm:text-3xl md:text-5xl flex justify-center">
-        Become &nbsp; <span class='underline'> {headingStatement[index]} </span>
+        Become &nbsp; <span> {headingStatement[index]} </span>
       </h2>
       <div class="flex justify-center items-center">
       <p

@@ -12,9 +12,9 @@ function Stats(props) {
         Brunswick Boxing Stars
       </h2>
 
-      <p class="mt-4 text-gray-100 sm:text-xl">
+      {/* <p class="mt-4 text-gray-100 sm:text-xl">
         We offers a wide variety of experience to bring to the table with our coaches. More importantly our abiltiy to connect to our fighters and ability to hold our fighters accountable makes us a great team. Above all our respect and eagerness to see you succeed in training or competition makes Brunswick Boxing Star a valuable asset to the world of Boxing and to you.
-      </p>
+      </p> */}
     </div>
 
     <div class="mt-8 sm:mt-12">
@@ -38,7 +38,7 @@ function Stats(props) {
             Years serving the Boxing Community
           </dt>
 
-          <dd class="text-4xl font-extrabold text-red-400 md:text-5xl">15+</dd>
+          <dd class="text-4xl font-extrabold text-red-400 md:text-5xl">12+</dd>
         </div>
       </dl>
     </div>

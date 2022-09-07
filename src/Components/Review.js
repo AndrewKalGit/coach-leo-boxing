@@ -31,11 +31,12 @@ function Review(props) {
   <div class="px-4 py-4 sm:py-8 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
     <div class="items-end justify-between sm:flex sm:justify-center">
       <div class="max-w-xl">
-        <h2 class="text-center text-2xl font-bold tracking-tight sm:text-4xl text-white underline">What the community is saying</h2>
+        <h2 class="text-center text-2xl font-bold tracking-tight sm:text-4xl text-white underline">What The Community Is Saying</h2>
         <div>
         <img src={BBSFamily} class='pt-4' alt="BBS Fam"/>
         <p class="max-w-lg mt-8 text-gray-100">
-          JT and Dionne been serving the Boxing community and their local community in multiple ways. Here's what the people are saying about this New Brunswick born Boxing Gym.
+          JT and Dionne have served both the Boxing community local communities in multiple ways. Here's what people are saying about this New Brunswick born, North Brunswick Located, Boxing Gym. 
+          {/* Center it */}
         </p>
         </div>
       </div>
@@ -66,7 +67,7 @@ function Review(props) {
         class="inline-flex items-center flex-shrink-0 px-5 py-3 mt-2 font-medium text-red-400 border border-red-400 rounded-full sm:mt-0 lg:mt-4 hover:bg-red-500 hover:text-white"
       target="_blank" rel="noreferrer"
       >
-        All Reivews
+        All Reviews
 
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -9,16 +9,6 @@ function SignUp(props) {
   <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
       <div class="lg:py-12 lg:col-span-2">
-        <h1 class="text-white text-4xl font-extrabold">Membership</h1>
-        <p class="text-white max-w-xl text-lg">
-         Base Pricing: ${data[0].GeneralAdmisionPrice}
-        </p>
-        <br></br>
-         <h1 class="text-white text-4xl font-extrabold">1 on 1: Personal Training</h1>
-        <p class="text-white max-w-xl text-lg">
-         $Variable Rate
-        </p>
-
         <div class="mt-8">
           <a href="tel:732-202-8989" class="text-2xl font-bold text-red-400"> 732-202-8989 </a>
 
@@ -30,60 +20,21 @@ function SignUp(props) {
         <form action="" class="space-y-4">
           <div>
             <label class="sr-only" for="name">Name</label>
-            <input class="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Name" type="text" id="name" />
+            <input class="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Name" type="text" for="name" id="name" />
+          </div>
+           <div>
+            <label class="sr-only" for="name">Address</label>
+            <input class="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Address" type="text" id="name" />
           </div>
 
-          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+           <div>
+            <label class="sr-only" for="name">Phone</label>
+            <input class="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Phone" type="tel" id="name" />
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
             <div>
               <label class="sr-only" for="email">Text</label>
-              <input
-                class="w-full p-3 text-sm border-gray-200 rounded-lg"
-                placeholder="Address"
-                type="text"
-              />
-            </div>
-
-            <div>
-              <label class="sr-only" for="phone">Phone</label>
-              <input
-                class="w-full p-3 text-sm border-gray-200 rounded-lg"
-                placeholder="Phone Number"
-                type="tel"
-                id="phone"
-              />
-            </div>
-
-            <div>
-              <label class="sr-only" for="text">Text</label>
-              <input
-                class="w-full p-3 text-sm border-gray-200 rounded-lg"
-                placeholder="Emergency Contact Name"
-                type="text"
-              />
-            </div>
-
-         <div>
-              <label class="sr-only" for="phone">Phone</label>
-              <input
-                class="w-full p-3 text-sm border-gray-200 rounded-lg"
-                placeholder="Phone Number"
-                type="tel"
-                id="phone"
-              />
-            </div>
-
-     
-         <div>
-              <label class="sr-only" for="text">Text</label>
-              <input
-                class="w-full p-3 text-sm border-gray-200 rounded-lg"
-                placeholder="State"
-                type="text"
-              />
-            </div>
-
-         <div>
-              <label class="sr-only" for="text">Text</label>
               <input
                 class="w-full p-3 text-sm border-gray-200 rounded-lg"
                 placeholder="City"
@@ -92,6 +43,75 @@ function SignUp(props) {
             </div>
 
             <div>
+              <label class="sr-only" for="phone">Phone</label>
+              <input
+                class="w-full p-3 text-sm border-gray-200 rounded-lg"
+                placeholder="Zip Code"
+                type="tel"
+                id="phone"
+              />
+            </div>
+
+             <div>
+              <select class="rounded">
+  <option value="NJ">New Jersey</option>
+  <option value="NY">New York</option>         
+  <option value="PA">Pennsylvania</option>     
+	<option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DE">Delaware</option>
+	<option value="DC">District Of Columbia</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Nebraska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY">Wyoming</option>
+</select>
+            </div>
+
+          <div>
               Date of Birth
               <label class="sr-only" for="text">Text</label>
               <input
@@ -100,30 +120,48 @@ function SignUp(props) {
                 type="date"
               />
             </div>
-            <div>
-              Family members that attend BBS:
-              <label class="sr-only" for="phone">Text</label>
-              <input
-                class="w-full p-3 text-sm border-gray-200 rounded-lg"
-                placeholder="Name(s)"
-                type="text"
-              />
-            </div>
+     
+
+        
           </div>
           <div>
             <label class="sr-only" for="message">Message</label>
             <textarea
-              class="w-full p-3 text-sm border-gray-200 rounded-lg"
+              class="w-full h-12 p-3 text-sm border-gray-200 rounded-lg"
               placeholder="List any Medical Conditions, you wish to enclose"
               rows="8"
               id="message"
             ></textarea>
           </div>
-            <h1> Please show proof of vaccination in person </h1>
+
+          <div class="grid grid-flow-row grid-row-3">
+          <h1> Please show proof of vaccination in person </h1>
              <h1>
             <span class='mr-4'>Covid Vaccinated: <input class="rounded-sm" type="checkbox"></input></span>
             Booster: <input class="rounded-sm" type="checkbox"></input>
           </h1>
+          </div>
+
+           <div>
+            <label class="sr-only" for="message">Message</label>
+            <textarea
+              class="w-full h-12 p-3 text-sm border-gray-200 rounded-lg"
+              placeholder="Family Members that attend BBS"
+              rows="8"
+              id="message"
+            ></textarea>
+          </div>
+
+          <div>
+            <label class="sr-only" for="name">Name</label>
+            <input class="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Emergency Contact Name" type="Text" for="name" id="name" />
+          </div>
+  
+           <div>
+            <label class="sr-only" for="name">Phone</label>
+            <input class="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Emergency Contact Phone" type="tel" id="name" />
+          </div>
+
 
           <div class="mt-4">
             <Link

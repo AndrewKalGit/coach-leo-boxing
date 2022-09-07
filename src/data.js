@@ -1,6 +1,6 @@
 const data = [
     {
-        GeneralAdmisionPrice: 50,
+        GeneralAdmisionPrice: 100,
     }
 ];
 

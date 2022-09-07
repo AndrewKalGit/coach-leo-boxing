@@ -8,16 +8,6 @@ function SignUpHolder(props) {
   <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
       <div class="lg:py-12 lg:col-span-2">
-        <h1 class="text-white text-4xl font-extrabold">Membership</h1>
-        <p class="text-white max-w-xl text-lg">
-         Base Pricing: ${data[0].GeneralAdmisionPrice}
-        </p>
-        <br></br>
-         <h1 class="text-white text-4xl font-extrabold">1 on 1: Personal Training</h1>
-        <p class="text-white max-w-xl text-lg">
-         $Variable Rate
-        </p>
-
         <div class="mt-8">
           <a href="tel:732-202-8989" class="text-2xl font-bold text-red-400"> 732-202-8989 </a>
 
