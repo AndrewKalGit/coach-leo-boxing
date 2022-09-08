@@ -34,7 +34,7 @@ function Review(props) {
         <h2 class="text-center text-2xl font-bold tracking-tight sm:text-4xl text-white underline">What The Community Is Saying</h2>
         <div>
         <img src={BBSFamily} class='pt-4' alt="BBS Fam"/>
-        <p class="max-w-lg mt-8 text-gray-100">
+        <p class="max-w-2xl mt-8 text-gray-100 text-center">
           JT and Dionne have served both the Boxing community local communities in multiple ways. Here's what people are saying about this New Brunswick born, North Brunswick Located, Boxing Gym. 
           {/* Center it */}
         </p>
