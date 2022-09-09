@@ -68,9 +68,9 @@ const close = () => {
 						<Link className='Nav-Links-Hambuger' to='/about'>
 							About
 						</Link>
-						<Link className='Nav-Links-Hambuger' to='/coaches'>
+						{/* <Link className='Nav-Links-Hambuger' to='/coaches'>
 							Coaches
-						</Link>
+						</Link> */}
 					</div>
         </div>
 </div>
