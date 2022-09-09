@@ -8,7 +8,7 @@ function About(props) {
 <aside
   class="overflow-hidden sm:grid sm:grid-cols-2 sm:items-center bg-gray-900"
 >
-  <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+  <div class="p-2 md:p-12 lg:px-16 lg:py-24">
     <div class="max-w-xl mx-auto text-center sm:text-left">
       <h2 class="text-2xl font-bold text-white md:text-2xl">
         Brunswick Boxing Stars
