@@ -9,7 +9,7 @@ function SignUp(props) {
   <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
       <div class="lg:py-12 lg:col-span-2">
-        <div class="mt-8">
+        <div>
           <a href="tel:732-202-8989" class="text-2xl font-bold text-red-400"> 732-202-8989 </a>
 
           <address class="mt-2 not-italic text-white">784 Carolier Ln, North Brunswick Township, NJ 08902</address>
@@ -127,7 +127,7 @@ function SignUp(props) {
           <div>
             <label class="sr-only" for="message">Message</label>
             <textarea
-              class="w-full h-12 p-3 text-sm border-gray-200 rounded-lg"
+              class="w-full h-16 p-3 text-sm border-gray-200 rounded-lg"
               placeholder="List any Medical Conditions, you wish to enclose"
               rows="8"
               id="message"
