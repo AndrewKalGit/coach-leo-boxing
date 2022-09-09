@@ -5,9 +5,6 @@ import PunchedImg from './ImgFolder/punched.jpg'
 function About(props) {
     return (
 <div>
-    <h1 class="flex justify-center text-2xl font-bold text-white sm:text-4xl items-center h-20 bg-gray-900 underline">
-        About Boxing
-    </h1>
 <aside
   class="overflow-hidden sm:grid sm:grid-cols-2 sm:items-center bg-gray-900"
 >
