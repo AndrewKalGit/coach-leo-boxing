@@ -14,17 +14,14 @@ function About(props) {
   <div class="p-8 md:p-12 lg:px-16 lg:py-24">
     <div class="max-w-xl mx-auto text-center sm:text-left">
       <h2 class="text-2xl font-bold text-white md:text-2xl">
-        Boxing at its Core.
+        Brunswick Boxing Stars
       </h2>
 
       <p class="text-white md:mt-4 md:block">
-        <h4 class="mt-2 mb-2 font-bold text-white">
-        What is Boxing</h4>
-        Oxford Languages Definition: noun "the sport or practice of fighting with the fists, especially with padded gloves in a roped square ring according to prescribed rules." Often called the sweet science, but has many other names. 
-        <h4 class="mt-2 mb-2 font-bold text-white">Our expertise.. What you will learn.</h4>
-        We will teach you the fundalmentals of Boxing. Later down the journey we will build a unique style for you. All this to maximize the chances of you hitting your opponents with effective punches and minimize the amount of damage you take in an exchange.
-        <h4 class="mt-2 mb-2 font-bold text-white">The Boxer's Journey.</h4>
-        During this process you'll run into challenges and it will be hard work. As your corner we will motivate and guide you through the journey. You will have the opportunity to navigate through tough moments. You will also be given a  chance to be held accountable for your training with proper coaching and guidance. If you do choose to compete, you will have the full support of the gym.
+        <h4 class="mt-2 mb-2 font-bold text-white">Who We Are</h4>
+        Brunswick Boxing Stars (BBS) is a family and minority owned and operated Boxing Gym that has called New Brunswick, New Jersey our home for the past 11 years. BBS relocated to a beautiful, new home in North Brunswick, New Jersey in 2022 due to a proposed redevelopment project in New Brunswick.
+        <h4 class="mt-2 mb-2 font-bold text-white">Our Mission</h4>
+     Brunswick Boxing Stars is proud to serve children and adults ages 8 and above.  Our clients are like family and we have become more than just a Boxing Gym to the community at large. As a Community focused Gym, BBS has spearheaded speaking engagements with dinner for the youth, holiday parties with gifts, Back-To-School events, food give-aways, equipment and membership sponsorships for boxers who may be facing a challenge, mentorship programs, turkey and grocery giveaways and gift cards, neighborhood clean ups and so much more.
       </p>
 
       <div class="mt-4 md:mt-8">

@@ -32,7 +32,7 @@ return (
       <p
         class="hidden p-2 bg-gray-400/60 text-white/90 sm:w-3/4 md:w-2/4 md:mt-6 md:text-lg md:leading-relaxed md:flex font-bold"
       >
-        Boxing is a more than just a sport, it's a life style to many. As our commitment to you we will walk you through the journey of honing your fundamental skills, and finding your unique approach to Boxing. Our goal is to help you walk with confidence throughout your daily life, with one more skillset in your arsenal. So come through whether you want to get fit, feel confident, or compete, our doors are open. 
+        Boxing is more than JUST A SPORT. To many, Boxing represents a lifestyle. Brunswick Boxing Stars (BBS) is committed to helping every individual along their journey toward learning the fundamental skills of Boxing while also finding their own unique approach.  At Brunswick Boxing Stars, we strive to help you confidently walk through life with one more skill set in your arsenal. Whether your goal is to feel more confident in life, get fit or prepare for competition, our doors are always open!
       </p> 
       </div>
       <div class="flex justify-center mt-4 sm:mt-8">
