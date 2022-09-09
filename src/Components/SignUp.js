@@ -6,9 +6,9 @@ function SignUp(props) {
     return (
 <div>
 <section class="bg-gray-700">
-  <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+  <div class="max-w-screen-xl px-4 py-4 mx-auto sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
-      <div class="lg:py-12 lg:col-span-2">
+      <div class="lg:py-8 lg:col-span-2">
         <div>
           <a href="tel:732-202-8989" class="text-2xl font-bold text-red-400"> 732-202-8989 </a>
 
