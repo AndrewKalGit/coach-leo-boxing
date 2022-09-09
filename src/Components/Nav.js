@@ -63,7 +63,7 @@ const close = () => {
           	<div className={`Nav-HamburgerContent${hidden ? 'Nav-HamburgerContentshow' : ''}`}>
 						<div className='Nav-HamburgerContentshow'>
 						<Link className='Nav-Links-Hambuger' to='/'>
-							Home
+							Home 
 						</Link>
 						<Link className='Nav-Links-Hambuger' to='/about'>
 							About
